@@ -1,0 +1,21 @@
+body{
+background-color: rgb(191, 224, 183)
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+a:hover {
+    color: rgb(71, 143, 67);
+  }
+ 
+  *{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  p{
+    font-weight: bold;
+  }
