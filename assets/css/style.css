@@ -1,5 +1,5 @@
 body{
-background-color: rgb(191, 224, 183)
+background-color: #0D0D0D
 }
 
 h1{
@@ -8,12 +8,17 @@ h1{
     text-shadow: 2px 2px 5px black;
 }
 
+a{
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
 a:hover {
-    color: rgb(71, 143, 67);
+    color: white;
   }
  
   *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bungee', cursive;
   }
 
   p{
@@ -40,11 +45,18 @@ a:hover {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
+    position: relative;
+    float: left;
+    margin: 10px;
     }
   
   .button:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
     transform: translateY(-7px);
+  }
+
+  .center {
+    display: block;
+    float: left;
   }
