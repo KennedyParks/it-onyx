@@ -1,0 +1,54 @@
+body{
+    background-color:#0D0D0D;
+}
+
+h1{
+    text-align: center;
+    color: #e6dcc6;
+}
+
+h2, h3, h4, h5, h6{
+ color:#e6dcc6;
+ text-align: center;
+}
+
+p{
+    color:#F2F2F2;
+}
+
+*{
+    font-family: 'Silkscreen', cursive;
+}
+
+.navigation{
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+a{
+    color:#F2CB05;
+}
+a:hover{
+    color:#F2A007;
+}
+
+blockquote{
+    color: rgb(200, 51, 21);
+}
+
+*{
+    color: white;
+}
