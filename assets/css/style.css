@@ -2,61 +2,48 @@ body{
 background-color: #0D0D0D
 }
 
-h1{
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px black;
+.wrapper {
+  height: 20vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+  
+}
+
+.typing-demo {
+  width: 23ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+*{
+  color: antiquewhite;
+  font-family: monospace;
+  text-decoration: none;
 }
 
 a{
-  text-decoration: none;
-  color: #0D0D0D;
+  display: block;
+  text-align: center;
 }
 
-a:hover {
-    color: white;
-  }
- 
-  *{
-    font-family: 'Bungee', cursive;
-  }
+a:hover{
+  color: rgb(220, 161, 90);
+}
 
-  p{
-    font-weight: bold;
-  }
-
-  main{
-    
-  }
-
-  .button {
-    width: 140px;
-    height: 45px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    position: relative;
-    float: left;
-    margin: 10px;
-    }
-  
-  .button:hover {
-    background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    transform: translateY(-7px);
-  }
-
-  .center {
-    display: block;
-    float: left;
-  }
