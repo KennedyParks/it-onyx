@@ -4,6 +4,7 @@ body{
 
 h1{
     text-align: center;
+    color: #F2CB05;
 }
 
 h2, h3, h4, h5, h6{
@@ -39,9 +40,12 @@ p{
 
 a{
     color:#F2CB05;
+    text-decoration: none;
 }
 a:hover{
     color:#F2A007;
+    transition: .75s;
+    text-decoration: underline;
 }
 
 figcaption, footer{
@@ -103,3 +107,5 @@ figcaption, footer{
     height: 113%;
     z-index: -1;
   }
+
+  
