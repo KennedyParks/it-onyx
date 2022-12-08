@@ -1,0 +1,151 @@
+/* Utility Classes */
+
+
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Unbounded', cursive;
+}
+
+.primary h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+
+#forms{
+    padding-left: 20px;
+}
+
+#forms .section-heading{
+    color: white;
+    font-size: 2rem;
+}
+
+#forms fieldset{
+    border: medium solid #9ee4bd;
+    padding: 20px;
+    width: 900px;
+}
+
+#forms .output{
+    color: #2b2928;
+    
+}
+
+#headings .section-heading{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+#headings .output{
+    color: #2b2928;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+#lists .section-heading{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+#lists h3{
+    line-height: 30px;
+}
+
+#lists .output{
+    color: #2b2928;
+    padding-left: 40px;
+}
+
+#hyperlinks .section-header{
+  color: white;
+  padding-bottom: 20px;
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+#hyperlinks .output{
+    padding-left: 40px;
+    text-decoration: none; 
+}
+
+#hyperlinks .output li a{
+    color: #1bfb7c;
+    text-decoration: none;
+}
+
+#hyperlinks .output li a:hover{
+    color: #3e1bfb;
+}
+
+#tables .section-header{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+#tables .section-header .output, table{
+    border: 2px solid white;
+    border-collapse:collapse;
+    
+}
+
+#tables .section-header .output, table, td{
+    color: #2b2928;
+    text-align: center;
+    padding: 5px;
+}
+
+#quotes .section-header{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+#quotes .output{
+    color: #2b2928;
+    padding-left: 20px;
+}
+
+.css-selector {
+    background: linear-gradient(293deg, #2b2928, #ff7171, #528afd, #3e1bfb);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+
+
+
+
+/* Media Queries*/
+
