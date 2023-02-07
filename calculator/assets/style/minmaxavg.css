@@ -1,3 +1,14 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    color: rgb(68, 68, 90);
+    font-weight: 600;
+}
+
 .formcontainer {
     width: 1000px;
     padding: 5px;
@@ -15,7 +26,7 @@
 }
 
 h1 {
-    border-bottom: 3px solid #cc9900;
-    color: #996600;
+    border-bottom: 3px solid rgb(68, 68, 90);;
+    color: rgb(68, 68, 90);
     font-size: 30px;
 }
