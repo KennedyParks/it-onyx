@@ -1,0 +1,43 @@
+#container{
+    background-image: url(../img/grid\ \(4\).png);
+}
+
+#main-header{
+    background-color: rgb(95, 238, 150);
+}
+
+#main-header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-header h1, #main-header h4{
+    text-align: center;
+}
+
+#main-header ul{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+  }
+#main-header li{
+    display: inline;
+  }
+
+  #about{
+    width: 43.645%;
+    margin-left: 4.166%;
+  }
+
+  #about img{
+    margin-left: 60%;
+  }
+
+#reviews{
+    background-color: yellow;
+}
+
+#footer{
+    background-color: gray;
+}

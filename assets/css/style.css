@@ -4,7 +4,6 @@ background-color: #0D0D0D
 
 .wrapper {
   height: 20vh;
-  /*This part is important for centering*/
   display: grid;
   place-items: center;
   
