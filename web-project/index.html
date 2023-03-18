@@ -5,59 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/style/style.css" rel="stylesheet">
+
     <title>Individual Web Project</title>
 </head>
 <body>
-  <section id="container">
-  <section id="main-header">
-    
-    <img src="assets/img/HOME-logo.png" width="200px">
-    <h1>The House of Mental Eatery</h1>
-    <h4>Let food be your medicine.</h4>
-    <ul>
-      <li><a href="cheatsheet/index-old.html">HOME</a></li>
-      <li><a href="cheatsheet/index-old.html">MENU</a></li>
-      <li><a href="cheatsheet/index-old.html">ABOUT</a></li>
-      <li><a href="cheatsheet/index-old.html">ORDER ONLINE</a></li>
-      <li><a href="cheatsheet/index-old.html">CONTACT</a></li>
-    </ul>
+	<header class="header" id="header">
+        <div class="logo">
+        <img src="assets/img/HOME-logo.png" width="80px"><a href="#header"></a>
+        </div>
+        <ul class="main-nav">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>ß
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+	</header>
+	<main>
+
+    <section class="image-section" id="about">
+      <div class="image-section__content">
+          <h3 class="image-section__title">Vegan food, with a twist.</h3>
+          <p class="image-section__text">The House of Mental (The HOME) is a place for all lovers of food to gather and enjoy the flavors of Earth.</p>
+          <p class="image-section__text">All items on our menu are 100% vegan.</p>
+      </div>
+      <div class="image-section__image">
+          <img src="assets/img/vegan wings.webp" alt="Image Description">
+      </div>
   </section>
 
-  <section id="about">
-    <h2>Vegan food, with a twist.</h2>
-    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-    <button class="">Menu</button>
-    <img src="assets/img/vegan wings.webp" width="600px"></img>
-    <h2>Hours of Operation</h2>
-    <h4>Monday-Sunday 1PM-6PM</h4>
-    <h4>801 S Chester Suite A</h4>
-    <h4>Little Rock, AR 72201</h4>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5269026245437!2d-92.28416114902801!3d34.74231768839926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2bba887004141%3A0x42a4fa00dd1007e4!2sThe%20House%20Of%20Mental!5e0!3m2!1sen!2sus!4v1677278145775!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-
-  <section id="reviews">
-    <h2>Rated 5 stars on Yelp</h2>
-    <img src="assets/img/pngkey.com-yelp-png-164165.png" width="400px">
-  </section>
-
-  <section id="order-online">
-    <button class="">GrubHub</button>
-    <button class="">UberEats</button>
-    <button class="">Order for Pickup</button>
-  </section>
-
-  <section id="footer">
-    <img src="assets/img/HOME-logo.png" width="100px">
-    <form>
-        <input type="text" id="email" name="email" value="Your Email">
-    </form>
-    <button class="">Submit</button>
-    <h4>Follow The HOME</h4>
-    <h4>Contact</h4>
-    <h4>501-123-4567</h4>
-    <h4>&copy 2023 The House of Mental</h4>
-  </section>
+  <section class="image-section">
+    <div class="image-section__content">
+        <h3 class="image-section__title">Hours of Operation</h3>
+        <p class="image-section__text">Monday-Saturday 1PM-6PM</p>
+        <p class="image-section__text">801 S Chester Suite 1</p>
+        <p class="image-section__text">Little Rock, AR 72201</p>
+    </div>
+    <div class="image-section__image">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5270775520366!2d-92.28415578476664!3d34.742313280423765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2bba887004141%3A0x42a4fa00dd1007e4!2sThe%20House%20Of%20Mental!5e0!3m2!1sen!2sus!4v1678832953077!5m2!1sen!2sus" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </section>
-    
+
+<section class="full-screen" id="menu">
+    <div class="full-screen-content">
+        <h3 class="image-section__title">Order for Delivery</h3>
+    </div>
+    <div class="full-screen-image">
+        <button class="red-button">GrubHub</button>
+        <button class="red-button">UberEats</button>
+        <button class="red-button">Order for Pickup</button>
+    </div>
+</section>
+
+<section class="full-screen" id="reviews">
+    <div class="full-screen-content">
+        <h3 class="image-section__title">Check out our reviews on Yelp!</h3>
+    </div>
+    <div class="full-screen-image">
+        <span class="yelp-review" data-review-id="6WrWviz6Cwckl9Q8B_XVvQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=dAbAryEdotckVAaXh8Pu1w" rel="nofollow noopener">Kit G.</a>'s <a href="https://www.yelp.com/biz/the-house-of-mental-little-rock?hrid=6WrWviz6Cwckl9Q8B_XVvQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/TPZGal5r86e6ZFBhGf7QOA" rel="nofollow noopener">The House Of Mental</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="ZtglZlKlevQCSEAiIKNmVQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=KxeA6jldQto1kWFebbwG2Q" rel="nofollow noopener">Teresa B.</a>'s <a href="https://www.yelp.com/biz/the-house-of-mental-little-rock?hrid=ZtglZlKlevQCSEAiIKNmVQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/TPZGal5r86e6ZFBhGf7QOA" rel="nofollow noopener">The House Of Mental</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+        <span class="yelp-review" data-review-id="AexEMMxopW7OB8i9RggWkA" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=VMgQUYYCJXkc77g-1Jp5ug" rel="nofollow noopener">Brianna B.</a>'s <a href="https://www.yelp.com/biz/the-house-of-mental-little-rock?hrid=AexEMMxopW7OB8i9RggWkA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/TPZGal5r86e6ZFBhGf7QOA" rel="nofollow noopener">The House Of Mental</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+    </div>
+</section>
+
+	</main>
+	<footer class="footer" id="contact">
+        <p>Subscribe to the HOME newsletter</p>
+        <form>
+            <input type="text" name="text-input" id="text-input" placeholder="Your Email">
+            <button type="submit" name="submit-btn" id="submit-btn">Submit</button>
+          </form>
+          <p>Follow the HOME</p>
+          <div class="social-icons">
+            <img src="assets/img/8547041_tiktok_icon.png" height="30px">
+            <img src="assets/img/104498_facebook_icon.png" height="30px">
+            <img src="assets/img/1161953_instagram_icon.png" height="30px">
+          </div>
+          <h5>Contact</h5>
+          <p>501-123-4567</p>
+		<p>&copy; The House of Mental 2023. All rights reserved.</p>
+	</footer>
 </body>
 </html>

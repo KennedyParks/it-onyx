@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mars Rover Photos and Mission Manifest</title>
+    <link href="assets/style/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Mars Rover Photo Explorer</h1>
+
+    <table>
+        <tr>
+          <th>Rover</th>
+          <th>Mission Start</th>
+          <th>Mission End</th>
+        </tr>
+        <tr>
+          <td>Curiosity</td>
+          <td>08/06/2012</td>
+          <td>09/28/2019</td>
+        </tr>
+        <tr>
+          <td>Opportunity</td>
+          <td>01/26/2004</td>
+          <td>06/11/2018</td>
+        </tr>
+        <tr>
+          <td>Sprint</td>
+          <td>01/05/2004</td>
+          <td>03/21/2004</td>
+        </tr>
+      </table>
+
+    <h2>Select a rover and a picture date:</h2>
+
+    <style>
+      /* responsive grid */
+      #photos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 10px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+      /* error message */
+      #error {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <h1>Mars Rover Photos</h1>
+    <form>
+      <label>Select a rover:</label>
+      <input type="radio" name="rover" value="curiosity" checked>Curiosity
+      <input type="radio" name="rover" value="opportunity">Opportunity
+      <input type="radio" name="rover" value="spirit">Spirit
+      <br>
+      <label>Enter a date (YYYY-MM-DD):</label>
+      <input type="text" name="date" required>
+      <button type="button" onclick="searchPhotos()">Search</button>
+    </form>
+    <div id="error"></div>
+    <div id="photos"></div>
+    
+
+
+    </body>
+    </html>

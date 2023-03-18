@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Kennedy Parks">
+<title>Currency Value history</title>
+<link href="assets/style/style.css" rel="stylesheet">
+</head>
+
+<body>
+<form id="myform">
+<div class="formcontainer">
+<h1>Currency Value History</h1>
+
+<label>Base Currency: </label>
+<select name="BaseCurrency" id="BaseCurrency" data-rule-required="true" data-msg-required="Currency is Required">
+<option value="">Select a Currency...</option>
+<option value="USD">US Dollar</option>
+<option value="AUD">Australian Dollar</option>
+<option value="JPY">Japanese Yen</option>
+<option value="EUR">European Union</option>
+<option value="MXN">Mexican peso</option>
+
+
+</select>
+<label for="BaseCurrency" class="error"></label>
+<br>
+<label>Convert To Currency: </label>
+<select name="ConvertCurrency" id="ConvertCurrency" data-rule-required="true" data-msg-required="Currency is Required">
+<option value="">Select a Currency...</option>
+<option value="USD">US Dollar</option>
+<option value="AUD">Australian Dollar</option>
+<option value="EUR">European Union</option>
+<option value="JPY">Japanese Yen</option>
+<option value="MXN">Mexican peso</option>
+</select>
+<label for="ConvertCurrency" class="error"></label>
+<br>
+<label class="formlabel">From Date:</label>
+<input type="date" name="FromDate" id="FromDate" data-rule-required="true"
+data-msg-required="From Date is Required">
+<label id="FromDateError" for="FromDate" class="error"></label>
+<br>
+<label class="formlabel">To Date:</label>
+<input type="date" name="ToDate" id="ToDate" data-rule-required="true"
+data-msg-required="To Date is Required">
+<label id="ToDateError" for="ToDate" class="error"></label>
+<br><br>
+<input type="button" value="ShowResults" id="ShowResults" name="ShowResults" onclick="Results();">
+<input type="button" value="Clear" id="Clear" name="Clear" onclick="ClearForm();">
+<hr>
+<br>
+
+<div class="clearfix">
+<div class="img-container">
+<canvas id="chartjs-0" width="400" height="400"></canvas>
+</div>
+
+</div>
+</div>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
