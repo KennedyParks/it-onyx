@@ -1,11 +1,21 @@
+body{
+  background-color: #000;
+  font-family: 'Share Tech Mono', monospace;
+  color: white;
+  background-image: url(../img/space.jpg)
+}
+
+h1, h2{
+  text-shadow: 2px 2px 8px #ffffff7c;
+}
+
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
   }
   
   td, th {
-    border: 1px solid #973d3d;
+    border: 1px solid #ffffff;
     text-align: left;
     padding: 8px;
   }
@@ -16,15 +26,62 @@ table {
 
     }
   
-    
   img {
     width: 250px;
     padding: 5px;
     }
 
+    img:hover{
+      box-shadow: 0 5px 15px rgb(255, 255, 255);
+      transition: box-shadow 0.6s ease-in-out;
+      transform: scale(1.1, 1.1);
+    }
+
   #error {
     color: red;
     font-weight: bold;
+    }
+
+    button{
+      background-color: #ffffff00;
+      border: 1px solid white;
+      color: white;
+      padding: 16px 32px;
+      font-family: 'Share Tech Mono', monospace;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    button:hover{
+      background-color: #e8691fd5;
+      color: white;
+      border: none;
+    }
+
+    input[type=text] {
+      width: 200px;
+      height: 53px;
+      font-size: 1.3rem;
+      font-family: 'Share Tech Mono', monospace;
+      color: white;
+      background-color: #ffffff00;
+      box-sizing: border-box;
+      border: 1px solid #ffffff;
+      
+      outline: none;
+    }
+
+    input[type=text]:hover {
+      border: 3px solid #e8691fd5;
+    }
+    
+    input[type=text]:focus {
+      border: 3px solid #e8691fd5;
     }
 
 
