@@ -10,4 +10,22 @@ table {
     padding: 8px;
   }
 
+  #photos {
+    display: flex;
+    flex-wrap: wrap;
+
+    }
+  
+    
+  img {
+    width: 250px;
+    padding: 5px;
+    }
+
+  #error {
+    color: red;
+    font-weight: bold;
+    }
+
+
   
