@@ -24,6 +24,28 @@ h3 {
   color: #732D2D;
 }
 
+.header-container h3 {
+  color: #D9A13B;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.half-image {
+  border-radius: 2%;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 45%;
+}
+
+.full-image {
+  width: 91%;
+  border-radius: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .container-fluid{
     background-color: #732D2D;
     color: #F2ECD8;
@@ -95,6 +117,8 @@ footer {
     padding: 0 15px;
     margin-bottom: 30px;
   }
+
+
   
   @media (min-width: 768px) {
     .col-md-4 {
