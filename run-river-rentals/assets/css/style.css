@@ -37,6 +37,7 @@ h3 {
   background-color: #D9A13B;
   padding: 10px;
   border: none;
+  border-radius: 10%;
 }
 
 .button:hover{
