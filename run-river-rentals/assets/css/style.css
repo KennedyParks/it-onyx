@@ -1,4 +1,6 @@
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +85,30 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
+.about-cabin-rentals {
+  text-align: left;
+  width: 70%;
+  margin: 20px;
+  font-size: 1.2rem;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.text-container img {
+  margin: 20px;
+  border-radius: 5%;
+}
+
 .data {
   padding: 50px;
   max-width: 60%;
@@ -156,7 +182,6 @@ footer {
   }
 
 
-  
   @media (min-width: 768px) {
     .col-md-4 {
       width: 25%;
